@@ -20,7 +20,7 @@ env = TimeLimit(
 
 state_dim = 6
 action_dim = 4
-path = "./FQI.joblib"
+path = "./FIQ.joblib"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 N = int(5000) # Number of samples
 n_iterations = int(70)
